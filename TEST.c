@@ -2,9 +2,10 @@
 
 int main(void)
 {
-    int i;
-    i = 11 % (-5);
-    printf("i is %d\n", i);
+    int x;
+    printf("Enter x:\n");
+    scanf("%d",&x);
+    printf("x:%d-%d-%d\n",x/100,x/10);
 
     return 0;
 }
